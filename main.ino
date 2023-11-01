@@ -59,6 +59,7 @@ void loop()
     {
         bChangeDir = false;  // Keep the gripper open
     }
+    
     // Read voltage from output of force sensor
     forceValue = analogRead(forcePin);
 
