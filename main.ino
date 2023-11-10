@@ -47,7 +47,7 @@ void loop()
     delayMicroseconds(10);
     digitalWrite(trigPin, LOW);
     duration = pulseIn(echoPin, HIGH);
-    distance = duration * 0.034 / 2;  // Calculate distance in centimeters
+    distance = duration * 0.034 / 2;  // Calculate distance in centimetres
 
     // Close gripper if object is within a certain range
     if (distance < 10)  // Adjust the threshold distance as needed
